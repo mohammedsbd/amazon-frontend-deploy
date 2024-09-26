@@ -1,0 +1,40 @@
+[debug] [2024-09-23T14:58:45.119Z] ----------------------------------------------------------------------
+[debug] [2024-09-23T14:58:45.122Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-09-23T14:58:45.122Z] CLI Version:   13.18.0
+[debug] [2024-09-23T14:58:45.122Z] Platform:      win32
+[debug] [2024-09-23T14:58:45.123Z] Node Version:  v20.15.1
+[debug] [2024-09-23T14:58:45.123Z] Time:          Mon Sep 23 2024 07:58:45 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-09-23T14:58:45.123Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-23T14:58:45.235Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-23T14:58:45.235Z] > authorizing via signed-in user (mohammed1112ok@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[warn] !  hub: emulator hub unable to start on port 4400, starting on 4401 instead. {"metadata":{"emulator":{"name":"hub"},"message":"emulator hub unable to start on port 4400, starting on 4401 instead."}}
+[warn] !  logging: Logging Emulator unable to start on port 4500, starting on 4501 instead. {"metadata":{"emulator":{"name":"logging"},"message":"Logging Emulator unable to start on port 4500, starting on 4501 instead."}}
+[debug] [2024-09-23T14:58:45.246Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2024-09-23T14:58:45.248Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-09-23T14:58:45.253Z] [hub] writing locator at C:\Users\mohammed\AppData\Local\Temp\hub-clone-6488e.json
+[warn] !  functions: Port 5001 is not open on localhost (127.0.0.1), could not start Functions Emulator. {"metadata":{"emulator":{"name":"functions"},"message":"Port 5001 is not open on localhost (127.0.0.1), could not start Functions Emulator."}}
+[warn] !  functions: To select a different host/port, specify that host/port in a firebase.json config file:
+      {
+        // ...
+        "emulators": {
+          "functions": {
+            "host": "HOST",
+            "port": "PORT"
+          }
+        }
+      } {"metadata":{"emulator":{"name":"functions"},"message":"To select a different host/port, specify that host/port in a firebase.json config file:\n      {\n        // ...\n        \"emulators\": {\n          \"functions\": {\n            \"host\": \"\u001b[33mHOST\u001b[39m\",\n            \"port\": \"\u001b[33mPORT\u001b[39m\"\n          }\n        }\n      }"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[warn] !  eventarc: Eventarc Emulator unable to start on port 9299, starting on 9300 instead. {"metadata":{"emulator":{"name":"eventarc"},"message":"Eventarc Emulator unable to start on port 9299, starting on 9300 instead."}}
+[debug] [2024-09-23T14:58:45.284Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  tasks: Cloud Tasks Emulator unable to start on port 9499, starting on 9500 instead. {"metadata":{"emulator":{"name":"tasks"},"message":"Cloud Tasks Emulator unable to start on port 9499, starting on 9500 instead."}}
+[debug] [2024-09-23T14:58:45.284Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-23T14:58:50.296Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\mohammed\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.

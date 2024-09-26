@@ -1,0 +1,26 @@
+.containerss{
+    padding: 30px;
+    background-color: #efeeee;
+}
+
+.orderss__container{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.orderss__container h2{
+    padding: 20px;
+    border-bottom: 2px solid #F3A847;
+
+}
+.orderss__container p{
+    padding: 12px;
+}
+
+.orderss__container img{
+    width: 120px !important;
+}
+
+.orderss__container div{
+    height: auto !important;
+}

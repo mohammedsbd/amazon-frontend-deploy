@@ -1,0 +1,36 @@
+.amazon-footer {
+  background-color: #232f3e;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer-section li:hover {
+  text-decoration: underline;
+}
